@@ -1,0 +1,12 @@
+prefix=e:/PY/AIML/Projects_code/c/desease_prediction/venv/Library
+exec_prefix=e:/PY/AIML/Projects_code/c/desease_prediction/venv/Library
+libdir=e:/PY/AIML/Projects_code/c/desease_prediction/venv/Library/lib
+includedir=e:/PY/AIML/Projects_code/c/desease_prediction/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
